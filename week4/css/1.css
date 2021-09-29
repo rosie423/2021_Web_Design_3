@@ -144,5 +144,9 @@ p2 {
         font-size: 50px;
         color: var(--6);
         font-family: 'Permanent Marker', cursive;!important;
-
     }
+    
+    p2 {
+    text-align: center;
+    }
+}
