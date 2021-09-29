@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:wght@300&display=swap');
+
+:root {
+    --1: #ccd5ae;
+    --2: #e9edc9;
+    --3:#fefae0;
+    --4: #fff3b0;
+    --5: #faedcd;
+    --6: #fdfbeb;
+}
+
+body {
+    font-family: 'Poppins', sans-serif; !important;
+    background-color: var(--6); !important;
+}
+
+.bgimage {
+    align-items: center;
+    background: url('https://images.unsplash.com/photo-1564352969906-8b7f46ba4b8b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=987&q=80');
+    display: flex;
+    background-size: cover;
+    background-color: white;
+    height: 50vh;
+    color: white;
+}
+
+.title {
+    font-size: 10em;
+    color: var(--6);
+}
+
+
+#button{
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+
+#profile {
+    padding-top: 6%;
+    padding-bottom: 15%;
+}
+
+#bio {
+    padding-top: 6%;
+    padding-bottom: 15%;
+}
+
+#album {
+    padding-top: 6%;
+    padding-bottom: 15%;
+}
+
+#gallery {
+    padding-top: 6%;
+    padding-bottom: 15%;
+}
+
+hr {
+    color: var(--1); !important;
+}
+
+h1 {
+    color: var(--1); !important;
+    font-family: 'Permanent Marker', cursive;!important;
+    text-align: center;
+}
+
+h2 {
+    color: var(--1); !important;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+}
+
+h5 {
+    color: var(--2); !important;
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+}
+
+h6 {
+    color: var(--1); !important;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+}
+
+h7 {
+    color: var(--2); !important;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+}
+
+p1 {
+    text-align: center;
+}
+
+p2 {
+    text-align: justify;
+}
+
+.container-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 80vw;
+    margin: 0 auto;
+    font-family: 'Permanent Marker', cursive;
+
+}
+.btn {
+    flex: 1 1 auto;
+    margin: 10px;
+    padding: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background-position: right center; /* change the direction of the change here */
+}
+
+.btn-1 {
+    background-image: linear-gradient(to right, #fefae0 0%, #e9edc9 51%, #fefae0 100%);
+}
+
+.btn-2 {
+    background-image: linear-gradient(to right, #e9edc9 0%, #ccd5ae 51%, #e9edc9 100%);
+}
+
+.btn-3 {
+    background-image: linear-gradient(to right, #ccd5ae 0%, #faedcd 51%, #ccd5ae 100%);
+}
+
+.btn-4 {
+    background-image: linear-gradient(to right, #faedcd 0%, #fff3b0 51%, #faedcd 100%);
+}
+
+
+
