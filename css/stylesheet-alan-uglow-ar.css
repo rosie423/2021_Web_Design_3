@@ -1,0 +1,145 @@
+
+header#canvas {
+	width: 40vw;
+	height: 40vw;
+	position: relative;
+}
+
+section {
+	position: absolute;
+}
+
+/* css named color calsses */
+.gray1 {
+	top: 0vw;
+	left: 34.5vw;
+	width: 30vw;
+	height: 0.5vw;
+	background-color: rgb(174,175,177);
+}
+
+.white1 {
+	top: 0.5vw;
+	left: 34.5vw;
+	width: 30vw;
+	height: 8vw;
+	background-color: rgb(242,242,242);
+}
+
+.gray2 {
+	top: 8.5vw;
+	left: 34.5vw;
+	width: 30vw;
+	height: 2vw;
+	background-color: rgb(174,175,177);
+}
+
+.white2 {
+	top: 10.5vw;
+	left: 34.5vw;
+	width: 30vw;
+	height: 3.5vw;
+	background-color: rgb(242,242,242);
+}
+
+.red1 {
+	top: 14vw;
+	left: 34.5vw;
+	width: 30vw;
+	height: 2vw;
+	background-color: rgb(218,62,2);
+}
+
+.white3 {
+	top: 16vw;
+	left: 34.5vw;
+	width: 30vw;
+	height: 3.5vw;
+	background-color: rgb(242,242,242);
+}
+
+.gray3 {
+	top: 19.5vw;
+	left: 34.5vw;
+	width: 30vw;
+	height: 2vw;
+	background-color: rgb(174,175,177);
+}
+
+.yellow1 {
+	top: 21.5vw;
+	left: 34.5vw;
+	width: 30vw;
+	height: 8vw;
+	background-color: rgb(244,242,150);
+}
+
+.gray4 {
+	top: 29.5vw;
+	left: 34.5vw;
+	width: 30vw;
+	height: 0.5vw;
+	background-color: rgb(174,175,177);
+}
+
+.blockgray1 {
+	top: 3vw;
+	left: 37.5vw;
+	width: 4vw;
+	height: 3vw;
+	background-color: rgb(233,233,233);
+}
+
+.blockgray2 {
+	top: 24vw;
+	left: 37.5vw;
+	width: 4vw;
+	height: 3vw;
+	background-color: rgb(233,233,233);
+}
+
+/* css color class hover states */
+
+.gray1:hover {
+	background-color: #ff9696;
+}
+
+.white1:hover {
+	background-color: #ff8200;
+}
+
+.gray2:hover {
+	background-color: #ffdc3c;
+}
+
+.white2:hover {
+	background-color: #52e252;
+}
+
+.red1:hover {
+	background-color: #93daff;
+}
+
+.white3:hover {
+	background-color: #006400;
+}
+
+.gray3:hover {
+	background-color: #7b68ee;
+}
+
+.yellow1:hover {
+	background-color: #ff5675;
+}
+
+.gray4:hover {
+	background-color: #b0a0cd;
+}
+
+.blockgray1:hover {
+	background-color: #000000;
+}
+
+.blockgray2:hover {
+	background-color:  #000000;
+}

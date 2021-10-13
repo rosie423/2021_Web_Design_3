@@ -1,0 +1,145 @@
+
+header#canvas {
+	width: 40vw;
+	height: 40vw;
+	position: relative;
+}
+
+section {
+	position: absolute;
+}
+
+/* css named color calsses */
+.lightgray1 {
+	top: 0vw;
+	left: 34vw;
+	width: 30vw;
+	height: 30vw;
+	background-color: rgb(189,206,216);
+}
+
+.blue1 {
+	top: 1vw;
+	left: 35vw;
+	width: 28vw;
+	height: 28vw;
+	background-color: rgb(47,192,236);
+}
+
+.black1 {
+	top: 6vw;
+	left: 35vw;
+	width: 3.5vw;
+	height: 23vw;
+	background-color: black;
+}
+
+.black2 {
+	top: 6vw;
+	left: 35vw;
+	width: 18vw;
+	height: 4.5vw;
+	background-color: black;
+}
+
+.black3 {
+	top: 6vw;
+	left: 48.5vw;
+	width: 5.5vw;
+	height: 23vw;
+	background-color: black;
+}
+
+.black4 {
+	top: 1vw;
+	left: 55vw;
+	width: 2vw;
+	height: 28vw;
+	background-color: black;
+}
+
+.black5 {
+	top: 27vw;
+	left: 35vw;
+	width: 28vw;
+	height: 2vw;
+	background-color: black;
+}
+
+.black6 {
+	top: 26vw;
+	left: 55vw;
+	width: 8vw;
+	height: 1vw;
+	background-color: black;
+}
+
+.lightgray2 {
+	top: 26vw;
+	left: 54vw;
+	width: 1vw;
+	height: 1vw;
+	background-color: rgb(189,206,216);
+}
+
+.yellow1 {
+	top: 27vw;
+	left: 46.5vw;
+	width: 2vw;
+	height: 2vw;
+	background-color: rgb(223, 195, 23);
+}
+
+.red1 {
+	top: 17.5vw;
+	left: 57vw;
+	width: 6vw;
+	height: 8.5vw;
+	background-color: rgb(248, 88, 74);
+}
+
+/* css color class hover states */
+
+.lightgray1:hover {
+	background-color: #787878;
+}
+
+.blue1:hover {
+	background-color: #ffffff;
+}
+
+.black1:hover {
+	background-color: #ff9696;
+}
+
+.black2:hover {
+	background-color: #ff7f50;
+}
+
+.black3:hover {
+	background-color: #ffdc3c;
+}
+
+.black4:hover {
+	background-color: #80e12a;
+}
+
+.black5:hover {
+	background-color: #93daff;
+}
+
+.black6:hover {
+	background-color: #5a5aff;
+}
+
+.lightgray2:hover {
+	background-color: #787878;
+}
+
+.yellow1:hover {
+	background-color: #7b68ee;
+}
+
+.red1:hover {
+	background-color: #008c8c;
+}

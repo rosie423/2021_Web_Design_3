@@ -1,0 +1,157 @@
+
+header#canvas {
+	width: 40vw;
+	height: 40vw;
+	position: relative;
+}
+
+section {
+	position: absolute;
+}
+
+/* css named color calsses */
+.green1 {
+	top: 0vw;
+	left: 37.3vw;
+	width: 10vw;
+	height: 6.66666667vw;
+	background-color: rgb(159,187,6);
+}
+
+.blue1 {
+	top: 0vw;
+	left: 47.3vw;
+	width: 10vw;
+	height: 6.66666667vw;
+	background-color: rgb(7,42,124);
+}
+
+.pink1 {
+	top: 0vw;
+	left: 57.3vw;
+	width: 5vw;
+	height: 5vw;
+	background-color: rgb(255,102,166);
+}
+
+.red1 {
+	top: 5vw;
+	left: 57.3vw;
+	width: 5vw;
+	height: 5vw;
+	background-color: rgb(203,4,33);
+}
+
+.blue2 {
+	top: 6.66666667vw;
+	left: 37.3vw;
+	width: 6vw;
+	height: 9vw;
+	background-color: rgb(7,42,124);
+}
+
+.red2 {
+	top: 6.66666667vw;
+	left: 43.3vw;
+	width: 8vw;
+	height: 9vw;
+	background-color: rgb(203,4,33);
+}
+
+.lightgreen1 {
+	top: 6.66666667vw;
+	left: 51.3vw;
+	width: 6vw;
+	height: 6vw;
+	background-color: rgb(208,224,4);
+}
+
+.pink2 {
+	top: 12.66666667vw;
+	left: 51.3vw;
+	width: 6vw;
+	height: 6vw;
+	background-color: rgb(255,102,166);
+}
+
+.blue3 {
+	top: 10vw;
+	left: 57.3vw;
+	width: 5vw;
+	height: 8.7vw;
+	background-color: rgb(7,42,124);
+}
+
+.yellow {
+	top: 15.6666667vw;
+	left: 37.3vw;
+	width: 8vw;
+	height: 9.33333333vw;
+	background-color: rgb(238,208,0);
+}
+
+.green2 {
+	top: 15.6666667vw;
+	left: 45.3vw;
+	width: 6vw;
+	height: 9.33333333vw;
+	background-color: rgb(159,187,6);
+}
+
+.red3 {
+	top: 18.6vw;
+	left: 51.3vw;
+	width: 11vw;
+	height: 6.4vw;
+	background-color: rgb(203,4,33);
+}
+
+/* css color class hover states */
+
+.green1:hover {
+	background-color: #db7093;
+}
+
+.blue1:hover {
+	background-color: #ff9100;
+}
+
+.pink1:hover {
+	background-color: #b0e12a;
+}
+
+.red1:hover {
+	background-color: green;
+}
+
+.blue2:hover {
+	background-color: #ff9100;
+}
+
+.red2:hover {
+	background-color: #64cd3c;
+}
+
+.lightgreen1:hover {
+	background-color: #9905d8;
+}
+
+.pink2:hover {
+	background-color: #b0e12a;
+}
+
+.blue3:hover {
+	background-color: #ff9100;
+}
+
+.yellow:hover {
+	background-color: #da70d6;
+}
+
+.green2:hover {
+	background-color: #db7093;
+}
+
+.red3:hover {
+	background-color: #64cd3c;
+}
