@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Fredoka+One&display=swap');
+
+:root {
+	--background: rgb(255, 255, 253);
+	--1: rgb(254,76,108);
+	--2: rgb(255, 158, 176);
+	--3: rgb(253, 117, 129);
+}
+
+html {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: var(--background);
+	font-family: 'Comfortaa', cursive;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	margin-top: 2%;
+}
+
+h1 {
+	text-align: center;
+	color: var(--1);
+}
+
+footer {
+	position:fixed;
+	left:0px;
+	bottom:0px;
+	height:60px;
+	width:100%;
+	background: linear-gradient( 45deg, rgb(253, 117, 129), rgb(254,76,108) );
+	color: white;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	list-style-type: none;
+}
+
+.heart {
+	float: left;
+	margin-right: auto;
+	height: auto;
+}
+
+.nav-menu {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-family: 'Comfortaa', cursive;
+	height: 10vh;
+}
+
+.nav-menu a {
+	font-size: 16px;
+	color:#000;
+	text-decoration: none;
+	position: relative;
+	padding: 6px 12px;
+}
+
+.nav-menu a::after {
+	content:"";
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 0%;
+	height: 4px;
+	background: var(--1);
+	transition: all .5s ease-out;
+}
+
+.nav-menu a:hover::after {
+	width: 100%;
+}
+
+.nav-menu a.curret {
+	background-color: var(--1);
+	color: var(--background);
+}
+
+.nav-menu2 {
+	font-family: 'Comfortaa', cursive;
+}
+
+.ul {
+	list-style-type: none;
+	margin: 0; 
+	padding: 0;
+	text-align: center;
+	font-size: 26px;
+}
+
+.li a {
+	display: block;
+	color: #000000;
+	padding: 8px;
+	text-decoration: none;
+}
+
+.li a:hover {
+	color: var(--1);
+	font-weight: bold;
+}
+
+a:link { 
+	color:black;
+	text-decoration: none;
+}
+
+a:visited { 
+	color:black;
+}
+
+a:hover {
+	color:var(--2);
+}
+
+.fa-heart {
+	color:var(--2);
+}
+
+.main-body {
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 6%;
+}
+
+.nav-item {
+	margin-bottom: 5%;
+}
+
+.homework-body {
+	margin-top: 2%;
+	text-align: center;
+	margin-bottom: 7%;
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+	.main-body {
+		margin-left: 5%;
+		margin-right: 5%;
+		margin-top: 20%;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+	.main-body {
+		margin-top: 25%;
+	}
+	.homework-body {
+		margin-top: 2%;
+		text-align: center;
+		margin-bottom: 10%;
+	}
+}
+@media screen and (min-width: 300px) and (max-width: 767px) {
+	.main-body {
+		margin-top: 15%;
+	}
+	.heart {
+		float: left;
+		width: 20em;
+	}
+	.nav-item {
+		margin-bottom: 10%;
+		font-size: small;
+	}
+	.homework-body {
+		margin-top: 2%;
+		text-align: center;
+		margin-bottom: 20%;
+	}
+}
