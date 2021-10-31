@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transformations and Transitions</title>
+
+    <style>
+        section {
+            position: relative;
+            height: 600px;
+        }
+
+        section div {
+            width: 300px;
+            height: 300px;
+            position: absolute;
+            transition: 2500ms;
+        }
+
+        .translate div {
+            background-color: rgba(204, 213, 174, 0.4);
+        }
+
+        .translate .transformed,
+        .translate .original:hover {
+            transform: translate(100px, 50%);
+        }
+
+        .rotate div {
+            background-color: rgba(255, 207, 210, 0.4);
+        }
+
+        .rotate .transformed,
+        .rotate .original:hover {
+            transform: rotate(30deg);
+        }
+
+        .scale div {
+            background-color: rgba(163, 196, 243, 0.4);
+        }
+
+        .scale .transformed,
+        .scale .original:hover{
+            transform: scale(0.5, 0.75);
+        }
+
+        /*TRANSITIONS*/
+
+        header {
+            margin-bottom: 30px;
+        }
+
+        nav div {
+            padding: 10px 20px;
+            display: inline-block;
+            transition: background-color 3s, border-bottom-color 5s;
+        }
+
+        nav div:hover {
+            background-color: rgb(255, 207, 210);
+            border-bottom:  2px solid rgb(203, 197, 253);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div>Nav Item</div>
+        </nav>
+    </header>
+    <main>
+        <section class="translate">
+            <div class="original">Translate original</div>
+            <div class="transformed">Translate tramsformed</div>
+        </section>
+
+        <section class="rotate">
+            <div class="original">Rotate original</div>
+            <div class="transformed">Rotate transformed</div>
+        </section>
+
+        <section class="scale">
+            <div class="original">Scale original</div>
+            <div class="transformed">Scale transformed</div>
+        </section>
+    </main>
+</body>
+</html>
