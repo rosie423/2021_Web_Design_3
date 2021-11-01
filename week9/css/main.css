@@ -311,8 +311,8 @@ a{
     p {
     font-family: 'Zen Antique', serif;
     color: var(--font-color);
-    font-size: 2vw;
-    line-height: 4vw;
+    font-size: 4vw;
+    line-height: 8vw;
     padding-top: 1%;
     padding-left: 3%;
     padding-right: 3%;
@@ -327,6 +327,11 @@ a{
 
     #gallery {
         width: 100vw;
-        height: 270vh;
+        height: 100%;
+    }
+
+    #about {
+        width: 100vw;
+        height: 170vh;
     }
 }
