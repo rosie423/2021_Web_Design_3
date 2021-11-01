@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&family=Zen+Antique&display=swap');
+
+:root {
+    --body-color: linear-gradient(90deg, hsl(270, 45%, 27%) 0%, hsl(271, 61%, 8%) 100%);
+    --container-color: linear-gradient(136deg, hsl(270, 45%, 20%) 0%, hsl(271, 61%, 5%) 100%);
+    --font-color: rgb(254, 255, 247);
+    --1 : #ad9fde;
+    --2 : rgb(252, 127, 0);
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0 0 0 0;
+    font-family: 'Zen Antique', serif;
+    background-image: var(--body-color);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--font-color);
+}
+
+#home {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+#about {
+    width: 100vw;
+    height: 100vh;
+}
+
+#gallery {
+    width: 100vw;
+    height: 100%;
+}
+
+h1 {
+    font-family: 'Fruktur', cursive;
+    color: var(--2);
+}
+
+h2 {
+    font-family: 'Fruktur', cursive;
+    color: var(--2);
+    text-align: left;
+}
+
+h3 {
+    font-family: 'Zen Antique', serif;
+    color: var(--font-color);
+}
+
+p {
+    font-family: 'Zen Antique', serif;
+    color: var(--font-color);
+    font-size: 1vw;
+    line-height: 2vw;
+    padding-top: 5%;
+    text-align: left;
+}
+
+ul {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+/*nav*/
+.navbar{
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Fruktur', cursive;
+}
+
+.nav-item {
+    padding: 0 10px;
+    display: inline-block;
+    transition: background-color 2s, border-bottom-color 1s;
+}
+
+.nav-item:hover {
+    background-color: rgba(252, 127, 0, 0.5);
+    border-bottom:  3px solid var(--2);
+}
+
+.fa-skull {
+    color: var(--font-color);
+}
+
+.fa-skull:hover {
+    color: var(--2);
+}
+
+.fa-skull:visited {
+    color: var(--2);
+}
+
+/*home*/
+
+.container {
+    position: relative;
+    text-align: center;
+}
+
+#left {
+    width: 15vw;
+}
+
+#right {
+    width: 20vw;
+}
+
+#slogan {
+    padding-bottom: 20%;
+    font-size: 7vw;
+}
+
+.img1 {
+    margin: 0;
+    position: absolute;
+    display: inline-block;
+    left: 10%;
+    -webkit-animation:moving1 10s none infinite alternate;
+}
+
+@-webkit-keyframes moving1 {
+    0%{transform:translate(0px, -400px)}
+    30%{transform:translate(100px, -320px)}
+    70%{transform:translate(20px, -420px)}
+    100%{transform:translate(-100px, -200px)}
+}
+
+.img2 {
+    margin: 0;
+    position: absolute;
+    display: inline-block;
+    left: 60%;
+    -webkit-animation:moving2 10s none infinite alternate;
+}
+
+@-webkit-keyframes moving2 {
+    0%{transform:translate(-80px, -200px)}
+    50%{transform:translate(20px, -400px)}
+    70%{transform:translate(100px, -250px)}
+    100%{transform:translate(200px, -380px)}
+}
+
+/*about*/
+.title {
+    padding-top: 3%;
+    padding-bottom: 1%;
+}
+
+.scale .scale-original:hover{
+    transform: scale(1.2, 1.5);
+    transition: 3s;
+}
+
+.scale-original {
+    width: 16vw;
+}
+
+.rotate .rotate-original:hover{
+    transform: rotate(30deg);
+    transition: 3s;
+}
+
+.rotate-original {
+    padding-top: 20%;
+    width: 25vw;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1366px) {
+    .title {
+        padding-top: 10%;
+    }
+
+    .scale {
+        padding-top: 20%;
+    }
+
+    #a-p {
+        padding-top: 30%;
+    }
+
+    #a-p2 {
+        padding-top: 20%;
+    }
+
+    .scale-original {
+        padding-top: 25%;
+        width: 25vw;
+    }
+
+    .rotate-original {
+        padding-top: 45%;
+        width: 35vw;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .title {
+        padding-top: 10%;
+    }
+
+    .scale {
+        padding-top: 15%;
+    }
+
+    #a-p {
+        padding-top: 25%;
+    }
+
+    #a-p2 {
+        padding-top: 15%;
+    }
+
+    .scale-original {
+        padding-top: 30%;
+        width: 25vw;
+    }
+
+    .rotate-original {
+        padding-top: 50%;
+        width: 35vw;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 767px) {
+    #left {
+        width: 30vw;
+    }
+
+    #right {
+        width: 40vw;
+    }
+
+    #slogan {
+        padding-bottom: 20%;
+        font-size: 9vw;
+    }
+
+    .img1 {
+        margin: 0;
+        position: absolute;
+        display: inline-block;
+        -webkit-animation:moving1 12s none infinite alternate;
+    }
+
+    @-webkit-keyframes moving1 {
+        0%{transform:translate(15px, -100px)}
+        30%{transform:translate(-40px, -250px)}
+        70%{transform:translate(40px, 50px)}
+        100%{transform:translate(20px, -400px)}
+    }
+
+    .img2 {
+        margin: 0;
+        position: absolute;
+        display: inline-block;
+        left: 50%;
+        -webkit-animation:moving2 12s none infinite alternate;
+    }
+
+    @-webkit-keyframes moving2 {
+        0%{transform:translate(-20px, -200px)}
+        50%{transform:translate(40px, -400px)}
+        70%{transform:translate(-10px, -150px)}
+        100%{transform:translate(10px, -380px)}
+    }
+
+    .scale {
+        padding-top: 3%;
+    }
+
+    #a-p {
+        padding-top: 3%;
+    }
+
+    #a-p2 {
+        padding-top: 10%;
+    }
+
+    .scale-original {
+        padding-top: 10%;
+        width: 40vw;
+        padding-bottom: 13%;
+    }
+
+    .rotate-original {
+        display: none;
+    }
+
+    p {
+    font-family: 'Zen Antique', serif;
+    color: var(--font-color);
+    font-size: 2vw;
+    line-height: 4vw;
+    padding-top: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+    text-align: center;
+    }
+
+    h2 {
+        font-family: 'Fruktur', cursive;
+        color: var(--2);
+        text-align: center;
+    }
+
+    #gallery {
+        width: 100vw;
+        height: 270vh;
+    }
+}
