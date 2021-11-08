@@ -83,6 +83,13 @@ a{
     text-decoration: none;
 }
 /*nav*/
+header {
+    background-image: var(--container-color);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .navbar{
     text-decoration: none;
     font-weight: bold;
@@ -332,6 +339,6 @@ a{
 
     #about {
         width: 100vw;
-        height: 190vh;
+        height: 170vh;
     }
 }
