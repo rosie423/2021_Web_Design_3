@@ -2,7 +2,7 @@
 
 :root {
     --body-color: linear-gradient(90deg, hsl(270, 45%, 27%) 0%, hsl(271, 61%, 8%) 100%);
-    --container-color: linear-gradient(136deg, hsl(270, 45%, 20%) 0%, hsl(271, 61%, 5%) 100%);
+    --container-color: linear-gradient(136deg, hsl(270, 45%, 20%) 0%, hsl(0, 0%, 100%) 100%);
     --font-color: rgb(254, 255, 247);
     --1 : #ad9fde;
     --2 : rgb(252, 127, 0);
@@ -84,7 +84,7 @@ a{
 }
 /*nav*/
 header {
-    background-image: var(--container-color);
+    background-image: linear-gradient(136deg, rgba(252, 127, 0, 0.42) 0%,  hsl(270, 45%, 20%) 100%);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
