@@ -10,11 +10,10 @@ html {
     font-family: 'VT323', monospace;}
 
 body {
-    background: #161e38;
+    background-image: linear-gradient(#080a35, #001523);
 }
 
 Canvas {
-    background: #161e38;
     margin: 0 auto;
     display: block;
 }
