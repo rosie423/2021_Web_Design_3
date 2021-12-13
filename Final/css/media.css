@@ -612,7 +612,7 @@
         width: 100vw;
         height: 100vh;
         overflow: hidden;
-        margin: 0s auto;
+        margin: 0 auto;
         position: relative;
     }
 
@@ -788,7 +788,6 @@
         100% {
             background-position: 0% 50%;
         }
-    }
     }
 
     #contact {
