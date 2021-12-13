@@ -24,6 +24,16 @@ ol, ul {
     list-style: none;
 }
 
+.newness:link {
+    color: black;
+    text-decoration: none;
+}
+
+.philosophy:link {
+    color: black;
+    text-decoration: none;
+}
+
 a:link {
     color: var(--text-color);
     background-color: transparent;
@@ -842,6 +852,11 @@ video {
     text-decoration: none;
 }
 
+.fa-icon:link {
+    color: var(--5);
+    text-decoration: none;
+}
+
 .position {
     font-size: 16px;
     color: #757575;
@@ -933,5 +948,5 @@ footer p {
 }
 
 #footer1 {
-    margin-top: 0;
+    margin-top: 8em;
 }
