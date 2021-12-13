@@ -154,28 +154,6 @@ h5 {
     white-space: nowrap;
 }
 
-.cd-section {
-    min-height: 100%;
-    position: relative;
-    padding: 2em 0;
-}
-
-.cd-section:nth-of-type(odd) {
-    background-color: #fffefd;
-}
-
-.cd-section:nth-of-type(odd) p {
-    color: #fffefd;
-}
-
-.cd-section:nth-of-type(even) {
-    background-color: #fffefd;
-}
-
-.cd-section:nth-of-type(even) p {
-    color: black;
-}
-
 .cd-scroll-down {
     position: absolute;
     left: 50%;
@@ -728,6 +706,10 @@ video {
     margin-right: 10em;
 }
 
+.about2 {
+    margin-top: 5em;
+}
+
 /*section : about3*/
 #tri {
     width: 20vw;
@@ -767,6 +749,10 @@ video {
 .explanation {
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
+}
+
+#about3-1 {
+    margin-top: 1em;
 }
 
 /*section : about4*/
@@ -812,7 +798,7 @@ video {
 }
 
 .material-h {
-    margin-top: 3.5em;
+    margin-top: 4em;
     font-family: 'Lora', serif;
     color: var(--text-color);
 }
@@ -943,10 +929,10 @@ video {
 footer p {
     font-family: 'Open Sans', sans-serif;
     font-weight:200;
-    font-size:0.7em;
+    font-size:0.5em;
     text-decoration: none;
 }
 
 #footer1 {
-    margin-top: 8em;
+    margin: 0em;
 }

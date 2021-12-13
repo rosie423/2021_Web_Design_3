@@ -769,7 +769,26 @@
         width: 100vw;
         height: 50vh;
         overflow: hidden;
-        background-image: var(--bg-color4);
+        background: linear-gradient( 180deg,
+        #0d1d36,
+        #1d3557,
+        #457b9d,
+        #a8dadc);
+        background-size: 500% 500%;
+        animation: gradient 10s ease infinite;
+    }
+
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
     }
 
     #contact {
