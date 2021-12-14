@@ -3379,9 +3379,9 @@ textarea.form-control-lg {
 }
 
 .btn-outline-dark {
-  color: rgba(69, 123, 157, 1);
+  color: #fff;
   border: solid 2px rgba(69, 123, 157, 0.7);
-  border-radius: 12px;
+  border-radius: 10px;
 }
 .btn-outline-dark:hover {
   color: #fff;
