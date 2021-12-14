@@ -319,7 +319,7 @@ h5 {
     margin: 0;
     padding: 0;
     width: 100vw;
-    height: 100vh;
+    height: 120vh;
     overflow: hidden;
     background-color: var(--bg-color);
 }
