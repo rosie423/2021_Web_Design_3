@@ -337,7 +337,7 @@ h5 {
     margin: 0;
     padding: 0;
     width: 100vw;
-    height: 100vh;
+    height: 91vh;
     overflow: hidden;
     background-color: var(--bg-color);
 }
@@ -767,7 +767,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 }
 
 #material3 {
-    background-image: url("../img/set.jpg");
+    background-image: url("../img/airbag.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.5);
@@ -775,7 +775,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 }
 
 #material4 {
-    background-image: url("../img/airbag.jpeg");
+    background-image: url("../img/set.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.5);
@@ -809,9 +809,9 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 }
 
 .member:hover {
-    -moz-box-shadow: 0 0 20px var(--1);
-    -webkit-box-shadow: 0 0 20px var(--1);
-    box-shadow: 0 0 30px var(--1);
+    -moz-box-shadow: 0 0 30px var(--5);
+    -webkit-box-shadow: 0 0 30px var(--5);
+    box-shadow: 0 0 30px var(--5);
 }
 
 .team-intro {
@@ -965,12 +965,8 @@ video {
 }
 
 /*footer*/
-#footer1 {
-    margin-top: 3em;
-    margin-bottom: 5em;
-}
 
-footer p {
+footer {
     font-family: 'Open Sans', sans-serif;
     text-decoration: none;
     text-align: center;

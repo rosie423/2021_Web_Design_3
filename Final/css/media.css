@@ -151,13 +151,22 @@
         margin-top: 5em;
     }
 
+    #contact {
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+    }
+
     #footer {
         margin-top: 10em;
     }
 
     #contact-ti {
-        margin-top: 10em;
+        margin-top: 18em;
     }
+
 }
 
 @media screen and (min-width: 300px) and (max-width: 768px) {
@@ -322,6 +331,14 @@
         background-color: black;
     }
 
+    #contact {
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+    }
+
     .video-box {
         width: 100vw;
         height: 100vh;
@@ -395,6 +412,10 @@
 
     #contact3 {
         padding-top: 2em;
+    }
+
+    #contact-ti {
+        margin-top: 10em;
     }
 
     #footer1 {
@@ -508,11 +529,11 @@
     }
 
     #tri {
-        width: 30vw;
+        width: 50vw;
         height: auto;
         align-items: center;
         text-align: center;
-        margin-left: 35vw;
+        margin-left: 23vw;
         margin-top: 2em;
         margin-bottom: 4em;
         animation: rotate_image 50s linear infinite;
@@ -572,14 +593,14 @@
     }
 
     .material-h {
-        margin-top: 1em;
+        margin-top: 2em;
         font-family: 'Lora', serif;
         color: var(--text-color);
         font-size: 18px;
     }
 
     .material-p {
-        margin-top: 0;
+        margin-top: 1em;
         margin-left: 2em;
         margin-right: 2em;
         color: var(--text-color);
@@ -712,7 +733,7 @@
     }
 
     #contact3 {
-        padding-top: 2em;
+        padding-top: 5em;
     }
 
     #footer1 {
@@ -735,7 +756,7 @@
         margin-left: 0;
         padding: 0;
         width: 100vw;
-        height: 130vh;
+        height: 140vh;
         overflow: hidden;
         background-image: var(--bg-color3);
         background-repeat: no-repeat;
@@ -745,7 +766,7 @@
         margin: 0;
         padding: 0;
         width: 100vw;
-        height: 130vh;
+        height: 140vh;
         overflow: hidden;
         background-image: var(--bg-color2);
         background-repeat: no-repeat;
@@ -774,7 +795,7 @@
         margin: 0;
         padding: 0;
         width: 100vw;
-        height: 215vh;
+        height: 230vh;
         overflow: hidden;
         background-color: var(--bg-color);
     }
@@ -810,7 +831,7 @@
         margin: 0;
         padding: 0;
         width: 100vw;
-        height: 190vh;
+        height: 195vh;
         overflow: hidden;
         background-color: var(--bg-color);
     }
