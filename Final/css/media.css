@@ -39,7 +39,7 @@
     }
 
     .about1 {
-        margin-top: 10em;
+        margin-top: 12em;
     }
 
     #scroll-wrapper {
@@ -75,8 +75,7 @@
     }
 
     .square {
-        width: 80%;
-        margin-left: 10%;
+        width: 90%;
         padding-top: 10em;
     }
 
@@ -88,12 +87,13 @@
         margin-right: 3em;
     }
 
-    .sas {
+    #about3-1 {
         margin-top: 10em;
     }
 
-    .sas1 {
-        margin-top: 4em;
+    #sustain {
+        padding-top: 2em;
+        line-height: 36px;
     }
 
     .material {
@@ -191,8 +191,8 @@
     }
 
     .ab1-p {
-        margin-left: 5em;
-        margin-right: 5em;
+        margin-left: 3em;
+        margin-right: 3em;
         font-family: 'Montserrat', sans-serif;
         line-height: 32px;
         font-size: 16px;
@@ -223,7 +223,7 @@
         text-align: center;
         margin-left: 35vw;
         margin-top: 2em;
-        margin-bottom: 4em;
+        margin-bottom: 2em;
         animation: rotate_image 50s linear infinite;
         transform-origin: 50% 50%;
     }
@@ -288,19 +288,20 @@
         font-family: 'Montserrat', sans-serif;
         line-height: 36px;
         font-size: 18px;
+        margin-top: 1em;
     }
 
     #about4 {
         margin: 0;
         padding: 0;
         width: 100vw;
-        height: 160vh;
+        height: 130vh;
         overflow: hidden;
         background-color: var(--bg-color);
     }
 
     #team1 {
-        margin-top: 0;
+        margin-top: 2em;
     }
 
     #team2 {
@@ -494,7 +495,6 @@
     }
 
     .about2 {
-        margin-top: 1em;
         margin-bottom: 3em;
     }
 
@@ -608,6 +608,12 @@
 
     #team3 {
         margin-top: 2em;
+    }
+
+    .team-intro {
+        line-height: 50px;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
     }
 
     .video-box {
@@ -729,7 +735,7 @@
         margin-left: 0;
         padding: 0;
         width: 100vw;
-        height: 110vh;
+        height: 130vh;
         overflow: hidden;
         background-image: var(--bg-color3);
         background-repeat: no-repeat;
@@ -739,7 +745,7 @@
         margin: 0;
         padding: 0;
         width: 100vw;
-        height: 120vh;
+        height: 130vh;
         overflow: hidden;
         background-image: var(--bg-color2);
         background-repeat: no-repeat;
@@ -749,7 +755,7 @@
         margin: 0;
         padding: 0;
         width: 100vw;
-        height: 160vh;
+        height: 170vh;
         overflow: hidden;
         background-color: var(--bg-color);
 
@@ -815,7 +821,7 @@
 
     hr {
         width: 50%;
-        margin-left: 5em;
+        margin-left: 5.5em;
     }
 
     section {
