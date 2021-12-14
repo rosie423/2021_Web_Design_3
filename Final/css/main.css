@@ -89,10 +89,6 @@ p {
     margin-left: 10%;
 }
 
-.square1 {
-    animation: ease-out infinite;
-}
-
 h1 {
     font-family: 'Gideon Roman', cursive;
 }
@@ -754,7 +750,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
     background-image: url("../img/plastic.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
     background-blend-mode: multiply;
 }
 
@@ -762,7 +758,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
     background-image: url("../img/net.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
     background-blend-mode: multiply;
 }
 
@@ -770,7 +766,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
     background-image: url("../img/airbag.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
     background-blend-mode: multiply;
 }
 
@@ -778,7 +774,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
     background-image: url("../img/set.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
     background-blend-mode: multiply;
 }
 
@@ -858,6 +854,20 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
     color: #000;
 }
 
+.emphasize {
+    background: linear-gradient(to bottom, var(--5) 0%, var(--5) 100%);
+    background-position: 0 115%;
+    background-repeat: repeat-x;
+    background-size: 3px 5px;
+    color: #000;
+    text-decoration: none;
+}
+
+.emphasize:hover {
+    text-decoration: none;
+    font-weight: bold;
+}
+
 .philosophy {
     background: linear-gradient(to bottom, var(--1) 0%, var(--2) 100%);
     background-position: 0 100%;
@@ -895,6 +905,9 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
     transition: transform 0.2s, font-size 0.8s;
 }
 
+.bounce {
+    animation: ease-out infinite;
+}
 /*donation*/
 .video-box {
     width: 100vw;
